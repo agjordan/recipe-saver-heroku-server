@@ -1,0 +1,19 @@
+{
+  "name": "recipe-saver-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
