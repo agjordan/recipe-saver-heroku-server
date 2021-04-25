@@ -3,7 +3,7 @@ import cheerio from "cheerio";
 import cors from "cors";
 import express, { response } from "express";
 
-const port = process.env.port || 8080
+const PORT = process.env.PORT || 8080
 
 const app = express();
 
@@ -33,6 +33,6 @@ app.get("/", async (req, res) => {
 });
 
 const server = app.listen(8080, () => {
-  console.log(`listening on port: ${port}`)
+  console.log(`listening on PORT: ${PORT}`)
 })
 
