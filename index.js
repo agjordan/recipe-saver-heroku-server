@@ -12,6 +12,7 @@ app.use(express.json());
 
 app.get("/", async (req, res) => {
   const url = req.query.url
+  console.log('fetching data from: ', url)
   const jsonld = await axios(url)
     .then((response) => {
       let recipe;
