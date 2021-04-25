@@ -33,7 +33,7 @@ app.get("/", async (req, res) => {
   res.send(jsonld)
 });
 
-const server = app.listen(8080, () => {
+const server = app.listen(PORT, () => {
   console.log(`listening on PORT: ${PORT}`)
 })
 
